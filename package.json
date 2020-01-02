@@ -1,0 +1,11 @@
+{
+  "name": "typedoc_experiments",
+  "description": "public repo to experiment with versions of typedoc",
+  "version": "0.1.0",
+  "dependencies": {
+    "typescript": "^3.7.4"
+  },
+  "devDependencies": {
+    "typedoc": "^0.16.0-1"
+  }
+}
