@@ -27,7 +27,7 @@ const app = new TypeDoc.Application({
 const inputDirs = [];
 inputDirs.push(path.join(ROOT_FOLDER, "dist"));//use the compiled version to generate the documentation
 
-const expandedInputFiles = app.expandInputFiles(inputDirs);
+const expandedInputFiles = app.expandInputFiles(inputDirs).filter(entry => !entry.endsWith(".js"));
 const project = app.convert(expandedInputFiles);
 
 if (project) {
