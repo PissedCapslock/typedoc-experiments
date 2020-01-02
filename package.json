@@ -2,10 +2,13 @@
   "name": "typedoc_experiments",
   "description": "public repo to experiment with versions of typedoc",
   "version": "0.1.0",
-  "dependencies": {
-    "typescript": "^3.7.4"
+  "scripts": {
+    "tsdoc": "npx tsc && node scripts/typedoc_generation.js"
   },
   "devDependencies": {
     "typedoc": "^0.16.0-1"
+  },
+  "dependencies": {
+    "typescript": "^3.7.4"
   }
 }
