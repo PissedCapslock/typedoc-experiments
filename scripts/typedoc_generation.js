@@ -7,7 +7,8 @@ const ROOT_FOLDER = path.join(__dirname, "../");
 const OUTPUT_DIR = path.join(ROOT_FOLDER, "tsdoc");
 
 //See https://typedoc.org/guides/arguments/ for the arguments
-const app = new TypeDoc.Application({
+const app = new TypeDoc.Application();
+app.bootstrap({
   mode: "modules",
   includeDeclarations: true,
   excludeNotExported: true,
