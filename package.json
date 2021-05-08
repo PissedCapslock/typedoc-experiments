@@ -6,7 +6,7 @@
     "tsdoc": "npx tsc && node scripts/typedoc_generation.js"
   },
   "devDependencies": {
-    "handlebars": "4.7.2",
+    "handlebars": "4.7.7",
     "typedoc": "0.16.0-3"
   },
   "dependencies": {
